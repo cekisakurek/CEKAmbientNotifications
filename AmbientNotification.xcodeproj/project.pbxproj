@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		147E2DB415B433670037CFED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147E2DB315B433670037CFED /* UIKit.framework */; };
+		147E2DB615B433670037CFED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147E2DB515B433670037CFED /* Foundation.framework */; };
+		147E2DB815B433670037CFED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147E2DB715B433670037CFED /* CoreGraphics.framework */; };
+		147E2DBE15B433670037CFED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 147E2DBC15B433670037CFED /* InfoPlist.strings */; };
+		147E2DC015B433670037CFED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 147E2DBF15B433670037CFED /* main.m */; };
+		147E2DC415B433670037CFED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 147E2DC315B433670037CFED /* AppDelegate.m */; };
+		147E2DC715B433670037CFED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147E2DC615B433670037CFED /* ViewController.m */; };
+		147E2DCA15B433670037CFED /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 147E2DC815B433670037CFED /* ViewController_iPhone.xib */; };
+		147E2DCD15B433670037CFED /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 147E2DCB15B433670037CFED /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		147E2DAF15B433670037CFED /* AmbientNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmbientNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		147E2DB315B433670037CFED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		147E2DB515B433670037CFED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		147E2DB715B433670037CFED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		147E2DBB15B433670037CFED /* AmbientNotification-Info.plist */ = {isa = PBXFileReference; path = "AmbientNotification-Info.plist"; sourceTree = "<group>"; };
+		147E2DBD15B433670037CFED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		147E2DBF15B433670037CFED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		147E2DC115B433670037CFED /* AmbientNotification-Prefix.pch */ = {isa = PBXFileReference; path = "AmbientNotification-Prefix.pch"; sourceTree = "<group>"; };
+		147E2DC215B433670037CFED /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		147E2DC315B433670037CFED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		147E2DC515B433670037CFED /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		147E2DC615B433670037CFED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		147E2DC915B433670037CFED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		147E2DCC15B433670037CFED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		147E2DAC15B433670037CFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147E2DB415B433670037CFED /* UIKit.framework in Frameworks */,
+				147E2DB615B433670037CFED /* Foundation.framework in Frameworks */,
+				147E2DB815B433670037CFED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147E2DA415B433670037CFED = {
+			isa = PBXGroup;
+			children = (
+				147E2DB915B433670037CFED /* AmbientNotification */,
+				147E2DB215B433670037CFED /* Frameworks */,
+				147E2DB015B433670037CFED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		147E2DB015B433670037CFED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				147E2DAF15B433670037CFED /* AmbientNotification.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		147E2DB215B433670037CFED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				147E2DB315B433670037CFED /* UIKit.framework */,
+				147E2DB515B433670037CFED /* Foundation.framework */,
+				147E2DB715B433670037CFED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		147E2DB915B433670037CFED /* AmbientNotification */ = {
+			isa = PBXGroup;
+			children = (
+				147E2DC215B433670037CFED /* AppDelegate.h */,
+				147E2DC315B433670037CFED /* AppDelegate.m */,
+				147E2DC515B433670037CFED /* ViewController.h */,
+				147E2DC615B433670037CFED /* ViewController.m */,
+				147E2DC815B433670037CFED /* ViewController_iPhone.xib */,
+				147E2DCB15B433670037CFED /* ViewController_iPad.xib */,
+				147E2DBA15B433670037CFED /* Supporting Files */,
+			);
+			path = AmbientNotification;
+			sourceTree = "<group>";
+		};
+		147E2DBA15B433670037CFED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				147E2DBB15B433670037CFED /* AmbientNotification-Info.plist */,
+				147E2DBC15B433670037CFED /* InfoPlist.strings */,
+				147E2DBF15B433670037CFED /* main.m */,
+				147E2DC115B433670037CFED /* AmbientNotification-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		147E2DAE15B433670037CFED /* AmbientNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147E2DD015B433670037CFED /* Build configuration list for PBXNativeTarget "AmbientNotification" */;
+			buildPhases = (
+				147E2DAB15B433670037CFED /* Sources */,
+				147E2DAC15B433670037CFED /* Frameworks */,
+				147E2DAD15B433670037CFED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmbientNotification;
+			productName = AmbientNotification;
+			productReference = 147E2DAF15B433670037CFED /* AmbientNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		147E2DA615B433670037CFED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = ustat;
+			};
+			buildConfigurationList = 147E2DA915B433670037CFED /* Build configuration list for PBXProject "AmbientNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 147E2DA415B433670037CFED;
+			productRefGroup = 147E2DB015B433670037CFED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				147E2DAE15B433670037CFED /* AmbientNotification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		147E2DAD15B433670037CFED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147E2DBE15B433670037CFED /* InfoPlist.strings in Resources */,
+				147E2DCA15B433670037CFED /* ViewController_iPhone.xib in Resources */,
+				147E2DCD15B433670037CFED /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		147E2DAB15B433670037CFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147E2DC015B433670037CFED /* main.m in Sources */,
+				147E2DC415B433670037CFED /* AppDelegate.m in Sources */,
+				147E2DC715B433670037CFED /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		147E2DBC15B433670037CFED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147E2DBD15B433670037CFED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		147E2DC815B433670037CFED /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147E2DC915B433670037CFED /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		147E2DCB15B433670037CFED /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147E2DCC15B433670037CFED /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		147E2DCE15B433670037CFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		147E2DCF15B433670037CFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		147E2DD115B433670037CFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmbientNotification/AmbientNotification-Prefix.pch";
+				INFOPLIST_FILE = "AmbientNotification/AmbientNotification-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		147E2DD215B433670037CFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmbientNotification/AmbientNotification-Prefix.pch";
+				INFOPLIST_FILE = "AmbientNotification/AmbientNotification-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147E2DA915B433670037CFED /* Build configuration list for PBXProject "AmbientNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147E2DCE15B433670037CFED /* Debug */,
+				147E2DCF15B433670037CFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147E2DD015B433670037CFED /* Build configuration list for PBXNativeTarget "AmbientNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147E2DD115B433670037CFED /* Debug */,
+				147E2DD215B433670037CFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 147E2DA615B433670037CFED /* Project object */;
+}
