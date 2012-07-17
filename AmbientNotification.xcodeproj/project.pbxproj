@@ -16,6 +16,8 @@
 		147E2DC715B433670037CFED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147E2DC615B433670037CFED /* ViewController.m */; };
 		147E2DCA15B433670037CFED /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 147E2DC815B433670037CFED /* ViewController_iPhone.xib */; };
 		147E2DCD15B433670037CFED /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 147E2DCB15B433670037CFED /* ViewController_iPad.xib */; };
+		147E2DD615B433A00037CFED /* CEKAmbientNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 147E2DD515B433A00037CFED /* CEKAmbientNotification.m */; };
+		147E2DD915B4348A0037CFED /* CEKNotificationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 147E2DD815B4348A0037CFED /* CEKNotificationItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +25,20 @@
 		147E2DB315B433670037CFED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		147E2DB515B433670037CFED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		147E2DB715B433670037CFED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		147E2DBB15B433670037CFED /* AmbientNotification-Info.plist */ = {isa = PBXFileReference; path = "AmbientNotification-Info.plist"; sourceTree = "<group>"; };
+		147E2DBB15B433670037CFED /* AmbientNotification-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AmbientNotification-Info.plist"; sourceTree = "<group>"; };
 		147E2DBD15B433670037CFED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		147E2DBF15B433670037CFED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		147E2DC115B433670037CFED /* AmbientNotification-Prefix.pch */ = {isa = PBXFileReference; path = "AmbientNotification-Prefix.pch"; sourceTree = "<group>"; };
-		147E2DC215B433670037CFED /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		147E2DC115B433670037CFED /* AmbientNotification-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AmbientNotification-Prefix.pch"; sourceTree = "<group>"; };
+		147E2DC215B433670037CFED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		147E2DC315B433670037CFED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		147E2DC515B433670037CFED /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		147E2DC515B433670037CFED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		147E2DC615B433670037CFED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		147E2DC915B433670037CFED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		147E2DCC15B433670037CFED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		147E2DD415B433A00037CFED /* CEKAmbientNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CEKAmbientNotification.h; path = CEKAmbientNotification/CEKAmbientNotification.h; sourceTree = "<group>"; };
+		147E2DD515B433A00037CFED /* CEKAmbientNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CEKAmbientNotification.m; path = CEKAmbientNotification/CEKAmbientNotification.m; sourceTree = "<group>"; };
+		147E2DD715B4348A0037CFED /* CEKNotificationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CEKNotificationItem.h; path = CEKAmbientNotification/CEKNotificationItem.h; sourceTree = "<group>"; };
+		147E2DD815B4348A0037CFED /* CEKNotificationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CEKNotificationItem.m; path = CEKAmbientNotification/CEKNotificationItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		147E2DB915B433670037CFED /* AmbientNotification */ = {
 			isa = PBXGroup;
 			children = (
+				147E2DD315B433710037CFED /* CEKAmbientNotification */,
 				147E2DC215B433670037CFED /* AppDelegate.h */,
 				147E2DC315B433670037CFED /* AppDelegate.m */,
 				147E2DC515B433670037CFED /* ViewController.h */,
@@ -99,6 +106,17 @@
 				147E2DC115B433670037CFED /* AmbientNotification-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		147E2DD315B433710037CFED /* CEKAmbientNotification */ = {
+			isa = PBXGroup;
+			children = (
+				147E2DD415B433A00037CFED /* CEKAmbientNotification.h */,
+				147E2DD515B433A00037CFED /* CEKAmbientNotification.m */,
+				147E2DD715B4348A0037CFED /* CEKNotificationItem.h */,
+				147E2DD815B4348A0037CFED /* CEKNotificationItem.m */,
+			);
+			name = CEKAmbientNotification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +186,8 @@
 				147E2DC015B433670037CFED /* main.m in Sources */,
 				147E2DC415B433670037CFED /* AppDelegate.m in Sources */,
 				147E2DC715B433670037CFED /* ViewController.m in Sources */,
+				147E2DD615B433A00037CFED /* CEKAmbientNotification.m in Sources */,
+				147E2DD915B4348A0037CFED /* CEKNotificationItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

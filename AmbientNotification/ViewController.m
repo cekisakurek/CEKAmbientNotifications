@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "CEKAmbientNotification.h"
 @interface ViewController ()
 
 @end
@@ -24,6 +24,25 @@
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    
+    CEKNotificationItem *item=[CEKNotificationItem notificationWithMessage:@"message1" timeToLive:2];
+    CEKNotificationItem *item2=[CEKNotificationItem notificationWithMessage:@"message 2"];
+    
+    [[CEKAmbientNotification manager]addNotificationItem:item];
+    [[CEKAmbientNotification manager]addNotificationItem:item2];
+    [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(remove:) userInfo:item2 repeats:NO];
+}
+-(void)remove:(CEKNotificationItem*)item{
+    [[CEKAmbientNotification manager]removeNotificationItem:item];
+    [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(next:) userInfo:nil repeats:NO];
+}
+-(void)next:(id)sender{
+    CEKNotificationItem *item=[CEKNotificationItem notificationWithMessage:@"message 3" timeToLive:2];
+    [[CEKAmbientNotification manager]addNotificationItem:item];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
