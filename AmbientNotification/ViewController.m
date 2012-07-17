@@ -29,7 +29,7 @@
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     
-    CEKNotificationItem *item=[CEKNotificationItem notificationWithMessage:@"message1" timeToLive:2];
+    CEKNotificationItem *item=[CEKNotificationItem notificationWithMessage:@"message 1" timeToLive:2];
     CEKNotificationItem *item2=[CEKNotificationItem notificationWithMessage:@"message 2"];
     
     [[CEKAmbientNotification manager]addNotificationItem:item];
